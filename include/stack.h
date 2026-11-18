@@ -3,7 +3,7 @@
 #include <string>
 #include <map>
 
-template<class T>
+template<class T> // сам выберет тип класса
 class Stack {
 private:
 	std::vector<T> pMem; 
@@ -42,7 +42,7 @@ public:
 
 class TArithmeticExpression {
 	std::string infix;
-	std::string postfix;
+	std::string postfix;	
 	std::vector<char> lexem;
 	std::map<char, int> priority;
 	std::map<char, double> operands;	

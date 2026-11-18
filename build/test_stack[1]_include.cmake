@@ -1,5 +1,0 @@
-if(EXISTS "/home/john/Документы/laborator_work_3/build/test_stack[1]_tests.cmake")
-  include("/home/john/Документы/laborator_work_3/build/test_stack[1]_tests.cmake")
-else()
-  add_test(test_stack_NOT_BUILT test_stack_NOT_BUILT)
-endif()
